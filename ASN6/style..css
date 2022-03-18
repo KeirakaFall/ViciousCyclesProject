@@ -1,0 +1,67 @@
+/* Color Index */ 
+:root {
+    --color-blue: #0073ff;
+    --color-white: #e9e9e9;
+    --color-black: #141d28;
+    --color-black-1: #212b38;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+   
+  }
+
+/* Menu Backround CSS */ 
+  .menu_header {
+      background-color: var(--color-black) ;
+      height: 80px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 5%;
+
+  }
+
+/* Menu Text CSS */ 
+.menu_header ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu_header ul li {
+    padding: 10px 30px;
+}
+
+.menu_header ul li a {
+    color: var(--color-white);
+    text-decoration: none;
+    font-size: 25px;
+
+}
+
+.menu_header ul li a:hover {
+    color: var(--color-blue);
+    
+}
+.logo {
+    color: var(--color-white);
+    font-size: 30px;
+
+}
+
+
+
+.backround {
+height: calc(100vh - 80px);
+background-image: url(./Images/BetterPlaceHolder.jpg);
+background-position: center;
+background-size: cover;
+background-repeat:no-repeat;
+}
